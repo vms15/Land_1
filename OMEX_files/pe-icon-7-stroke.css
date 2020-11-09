@@ -4,7 +4,7 @@
 	src:url('../fonts/Pe-icon-7-stroke.eot?#iefix-2irksn') format('embedded-opentype'),
 		url('../fonts/Pe-icon-7-stroke.woff?-2irksn') format('woff'),
 		url('../fonts/Pe-icon-7-stroke.ttf?-2irksn') format('truetype'),
-		url('../fonts/Pe-icon-7-stroke.fvioaijhvyjh?-2irksn#Pe-icon-7-stroke') format('svg');
+		url('../fonts/Pe-icon-7-stroke.svg?-2irksn#Pe-icon-7-stroke') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -30,7 +30,7 @@
 .pe-7s-cash:before {
 	content: "\e68c";
 }
-.rpjsggfpawjco:before {
+.pe-7s-close:before {
 	content: "\e680";
 }
 .pe-7s-bluetooth:before {
@@ -42,19 +42,19 @@
 .pe-7s-way:before {
 	content: "\e68e";
 }
-.rpjsggfpawjco-circle:before {
+.pe-7s-close-circle:before {
 	content: "\e681";
 }
 .pe-7s-id:before {
 	content: "\e68f";
 }
-.yeohqgwroteoyx:before {
+.pe-7s-angle-up:before {
 	content: "\e682";
 }
 .pe-7s-wristwatch:before {
 	content: "\e690";
 }
-.yeohqgwroteoyx-circle:before {
+.pe-7s-angle-up-circle:before {
 	content: "\e683";
 }
 .pe-7s-world:before {

@@ -19,36 +19,36 @@
 	    margin-top: 100px;
 	}
 
-	.fwedgulchy .zcyshgfltgail:hover>span:after {
+	.no-touch .main-menu-indicator:hover>span:after {
 	    top: -7px;
 	}
-	.fwedgulchy .zcyshgfltgail:hover>span:before {
+	.no-touch .main-menu-indicator:hover>span:before {
 	    bottom: -7px;
 	}
 
-	.uuuvqssfukhix-2 ul li{
+	.menu-wrap-2 ul li{
 	    line-height: 100px;
 	}
 
-	.uuuvqssfukhix-2 ul li ul.sub-menu{
+	.menu-wrap-2 ul li ul.sub-menu{
 	    position: absolute;
 	    left: 0;
 	    width: 210px;
 	    background: rgba(255,255,255,0.95);
 	}
 
-	.uuuvqssfukhix-2 li.menu-item-has-children{
+	.menu-wrap-2 li.menu-item-has-children{
 		position: relative;
 		display: inline-block;
 	}
-	.uuuvqssfukhix-2 ul li ul li ul.sub-menu{
+	.menu-wrap-2 ul li ul li ul.sub-menu{
 	    position: absolute;
 	    left: 210px;
 	    top: 0;
 	    background: rgba(255,255,255,0.95);
 	}
 
-	.uuuvqssfukhix-2 ul li ul li.menu-item-has-children:after{
+	.menu-wrap-2 ul li ul li.menu-item-has-children:after{
 		position: absolute;
 		right: 10px;
 		top: 8px;
@@ -73,34 +73,34 @@
 /* 2. Small devices (tablets, 768px and Down) */
 @media (max-width: 768px){
 
-	.uuuvqssfukhix-2 {
+	.menu-wrap-2 {
 		overflow-y: auto;
 	}
 
-	.uuuvqssfukhix-2 ul li ul.sub-menu{
+	.menu-wrap-2 ul li ul.sub-menu{
 		display: block !important;
 	}
-	.uuuvqssfukhix-2 ul li ul li ul.sub-menu{
+	.menu-wrap-2 ul li ul li ul.sub-menu{
 	    display: block !important; 
 	}
 
-	.pzzzexgrlckdlki{
+	.slider-description{
 		top: 25%;
 	}
-	.pavqqtzfhkpvgo h1 span {
+	.slider-description-inner h1 span {
 	    padding: 10px;
 	    line-height: 32px;
 	}
 
 
-	.pavqqtzfhkpvgo h1, .lzliaiocaxgzs{
+	.slider-description-inner h1, .cd-headline{
 		font-size: 20px;
 	}
-	.uuuvqssfukhix{
+	.menu-wrap{
 		width: 100%;
 	}
 
-	.uuuvqssfukhix-2{
+	.menu-wrap-2{
 		padding-top: 100px;
 		position: fixed;
 		background: rgba(251, 251, 251, 0.98);
@@ -119,35 +119,35 @@
 		transform: translate3d(0, 0, 0);
 		transition: -webkit-transform 0.4s;
 	}
-	.uuuvqssfukhix-2:after{
+	.menu-wrap-2:after{
 		width: 100%;
 		height: 100%;
 		background: #000;
 		position: fixed;
 	}
 
-	.uuuvqssfukhix-2 ul.sub-menu{
+	.menu-wrap-2 ul.sub-menu{
 		padding-top: 0;
 		background: transparent;
 	}
 
-	.uuuvqssfukhix-2 ul.sub-menu{
+	.menu-wrap-2 ul.sub-menu{
 		position: relative;
 	}
 
 
-	.uuuvqssfukhix-2 ul li{
+	.menu-wrap-2 ul li{
 		display: block;
 	}
 
-	.ztzljlcytyc {  
+	.menu-content {  
     	padding-top: 90px;
 	}
 
-	.odlywljoypzv, .rhpoazqshpga {
+	.newsletter-right, .newsletter-left {
   		min-height: 160px;
 	}
-	.tihxsxysifz{
+	.newsletter-right-inner{
 		padding: 10px;
 		left: 10px;
 		top: 10px;
@@ -156,7 +156,7 @@
 		display: table;
 		background-color: rgba(255, 255, 255, 0.9);
 	}
-	.tihxsxysifz form{
+	.newsletter-right-inner form{
 		display: table-cell;
 		vertical-align: middle;
 	}
@@ -169,20 +169,20 @@
     	letter-spacing: 1px;
     }
 
-	.iqwcxtswfqiv h1{
+	.newsletter-left-inner h1{
 		font-size: 20px;
 	}
 	.our-story-content{
 		background: rgba(123,238,199,0.8);
 	}
 
-	.cyzqluvupcg-page .inner-content .cyzqluvupcg-content h1 {
+	.header-page .inner-content .header-content h1 {
     	font-size: 30px;
 	}
-	.cyzqluvupcg-page{
+	.header-page{
 		min-height: 250px;
 	}
-	.cyzqluvupcg-page .inner-content {
+	.header-page .inner-content {
 	    height: 210px;
 	}
 
@@ -220,16 +220,16 @@
 /* 2. Small devices (tablets, 767px and Down) */
 @media (max-width: 767px) {
 
-	.uweszxwepwq{
+	.footer-inner{
 		text-align: center;
 		height: 200px;
 	}
 
-	.gaeyyqcyotgzjkp {
+	.kenburnsy {
     	height: 300px !important;
 	}
 
-	.rkgxetvlcx {
+	.margin-top {
 	    margin-top: 50px;
 	}
 
@@ -243,11 +243,11 @@
 		margin: auto;
 	}
 
-	.rpxydlpipspoh__text{
+	.slide__text{
 		height: 50%;
 	}
 
-	.rpxydlpipspoh__text p {
+	.slide__text p {
 	    font-size: 14px;
 	    line-height: 24px;
 	}
@@ -270,13 +270,13 @@
 		margin-bottom: 50px;
 	}
 
-	.rpxydlpipspoh__bg{
+	.slide__bg{
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 0 100px;
 	}
 
-	.rpxydlpipspoh__text {
+	.slide__text {
 	    left: 0;
 	    bottom: 0;
 	    width: 100%;
@@ -288,19 +288,19 @@
 	    transition: transform 0.5s 0.5s, opacity 0.5s 0.5s;
 	    padding: 0 1rem;
 	}
-	.rpxydlpipspoh__text-heading {
+	.slide__text-heading {
 	    font-size: 18px;
 	}
-	.rpxydlpipspoh__text-desc {
+	.slide__text-desc {
 	    display: none;
 	}
-	.rpxydlpipspoh__text-link {
+	.slide__text-link {
 	    display: none;
 	}
-	.rpxydlpipspoh__overlay {
+	.slide__overlay {
 	    display: none;
 	}
-	.rpxydlpipspoh .rpxydlpipspoh__text {
+	.slide .slide__text {
 	    background-color: #7beec7;
 	}
 
@@ -325,7 +325,7 @@
 		background-attachment: fixed;
 	}
 
-	.xwgxhpswaoc{
+	.slider-wrapper{
 		min-height: 610px;
 	}
 

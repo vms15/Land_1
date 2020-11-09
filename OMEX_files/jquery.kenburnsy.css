@@ -4,13 +4,13 @@
  * @link https://github.com/ZeroOneStudio/kenburnsy
  * @license MIT
  */
-.gaeyyqcyotgzjkp {
+.kenburnsy {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
 
-.gaeyyqcyotgzjkp.fullscreen {
+.kenburnsy.fullscreen {
   position: absolute;
   top: 0;
   right: 0;
@@ -19,11 +19,11 @@
   z-index: -1;
 }
 
-.gaeyyqcyotgzjkp img {
+.kenburnsy img {
   display: none;
 }
 
-.gaeyyqcyotgzjkp .rpxydlpipspoh {
+.kenburnsy .slide {
   position: absolute;
   top: 0;
   right: 0;

@@ -7,31 +7,31 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
-.prwzhltgkevwpr {
+.animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
-.prwzhltgkevwpr.infinite {
+.animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-.prwzhltgkevwpr.hinge {
+.animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
 
-.prwzhltgkevwpr.bounceIn,
-.prwzhltgkevwpr.bounceOut {
+.animated.bounceIn,
+.animated.bounceOut {
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
 }
 
-.prwzhltgkevwpr.flipOutX,
-.prwzhltgkevwpr.flipOutY {
+.animated.flipOutX,
+.animated.flipOutY {
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
 }
@@ -1398,7 +1398,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.ygtcffclrtjwghz {
+.fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -1431,7 +1431,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.ygtcffclrtjwghzBig {
+.fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
 }
@@ -1601,7 +1601,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.yltgcielwatw {
+.fadeOutRight {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
 }
@@ -1630,7 +1630,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.yltgcielwatwBig {
+.fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig;
 }
@@ -1767,7 +1767,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.prwzhltgkevwpr.flip {
+.animated.flip {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
@@ -3049,7 +3049,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohInDown {
+.slideInDown {
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
 }
@@ -3080,7 +3080,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohInLeft {
+.slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
 }
@@ -3111,7 +3111,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohInRight {
+.slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 }
@@ -3142,7 +3142,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohInUp {
+.slideInUp {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
 }
@@ -3173,7 +3173,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohOutDown {
+.slideOutDown {
   -webkit-animation-name: slideOutDown;
   animation-name: slideOutDown;
 }
@@ -3204,7 +3204,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohOutLeft {
+.slideOutLeft {
   -webkit-animation-name: slideOutLeft;
   animation-name: slideOutLeft;
 }
@@ -3235,7 +3235,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohOutRight {
+.slideOutRight {
   -webkit-animation-name: slideOutRight;
   animation-name: slideOutRight;
 }
@@ -3266,7 +3266,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.rpxydlpipspohOutUp {
+.slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }

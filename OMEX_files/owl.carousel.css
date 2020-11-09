@@ -4,7 +4,7 @@
  */
 
 /* clearfix */
-.tlkdkledycxg .wvcuwdxeeorrect:after {
+.owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
 	clear: both;
@@ -13,23 +13,23 @@
 	height: 0;
 }
 /* display none until init */
-.tlkdkledycxg{
+.owl-carousel{
 	display: none;
 	position: relative;
 	width: 100%;
 	-ms-touch-action: pan-y;
 }
-.tlkdkledycxg .wvcuwdxeeorrect{
+.owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
-.tlkdkledycxg .wqhzzlhuzrakosp{
+.owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
 	position: relative;
 	width: 100%;
 }
-.tlkdkledycxg .wqhzzlhuzrakosp.autoHeight{
+.owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;
 	-ms-transition: height 500ms ease-in-out;
@@ -37,7 +37,7 @@
 	transition: height 500ms ease-in-out;
 }
 	
-.tlkdkledycxg .feszuuxxyjj{
+.owl-carousel .owl-item{
 	float: left;
 }
 .owl-controls .owl-page,
@@ -59,8 +59,8 @@
 }
 
 /* fix */
-.tlkdkledycxg  .wvcuwdxeeorrect,
-.tlkdkledycxg  .feszuuxxyjj{
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
