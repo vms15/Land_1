@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты — ARM Accounting</title>
+  <meta name="description" content="Контакты ARM Accounting: WhatsApp, Telegram, email. Форма обратной связи для консультации по бухгалтерии в Армении.">
+  <meta name="keywords" content="контакты бухгалтер Армения, WhatsApp бухгалтер, Telegram бухгалтерия, консультация по налогам Армения">
+  <link rel="icon" href="/workspace/arm-accounting-site/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://armaccounting.am/contact.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://armaccounting.am/contact.html">
+  <meta property="og:title" content="Контакты — ARM Accounting">
+  <meta property="og:description" content="Свяжитесь с нами в WhatsApp, Telegram или по email. Оставьте заявку.">
+  <meta property="og:image" content="https://armaccounting.am/assets/img/og-cover.png">
+  <link rel="stylesheet" href="/workspace/arm-accounting-site/assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <a class="brand" href="/workspace/arm-accounting-site/index.html">
+        <img class="brand-logo" src="/workspace/arm-accounting-site/assets/img/favicon.svg" alt="ARM Accounting">
+        <span>ARM Accounting</span>
+      </a>
+      <nav class="nav" id="site-nav">
+        <a href="/workspace/arm-accounting-site/index.html">Главная</a>
+        <a href="/workspace/arm-accounting-site/services.html">Услуги</a>
+        <a href="/workspace/arm-accounting-site/it-tax.html">IT 1%</a>
+        <a href="/workspace/arm-accounting-site/legalization.html">Легализация доходов</a>
+        <a class="active" href="/workspace/arm-accounting-site/contact.html">Контакты</a>
+      </nav>
+      <button class="menu-toggle" data-toggle="nav" aria-controls="site-nav" aria-expanded="false" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Свяжитесь с нами</h1>
+        <p class="lead">Ответим на вопросы по бухгалтерии, налогам и легализации доходов.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid">
+          <div class="card" style="grid-column: span 5;">
+            <h3>Контакты</h3>
+            <ul class="list">
+              <li>Email: <a href="mailto:info@armaccounting.am">info@armaccounting.am</a></li>
+              <li>WhatsApp: <a data-whatsapp="37400000000" href="https://wa.me/37400000000" target="_blank" rel="noopener">+374 00 000 000</a></li>
+              <li>Telegram: <a href="https://t.me/armaccounting" target="_blank" rel="noopener">@armaccounting</a></li>
+              <li>Часы работы: Пн–Пт, 10:00–19:00 (GMT+4)</li>
+            </ul>
+          </div>
+          <div class="card" style="grid-column: span 7;">
+            <h3>Форма обратной связи</h3>
+            <form id="contact-form" class="form" data-mailto="info@armaccounting.am" data-cc="support@armaccounting.am">
+              <div class="field">
+                <label for="name">Имя</label>
+                <input class="input" type="text" id="name" name="name" placeholder="Ваше имя" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input class="input" type="email" id="email" name="email" placeholder="name@example.com" required>
+              </div>
+              <div class="field">
+                <label for="phone">Телефон</label>
+                <input class="input" type="tel" id="phone" name="phone" placeholder="+374...">
+              </div>
+              <div class="field full">
+                <label for="topic">Тема обращения</label>
+                <select class="select" id="topic" name="topic">
+                  <option>Бухгалтерское сопровождение</option>
+                  <option>Оптимизация налогов</option>
+                  <option>IT: льготный режим (до 1%)</option>
+                  <option>Легализация доходов</option>
+                  <option>Другое</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="message">Сообщение</label>
+                <textarea class="textarea" id="message" name="message" placeholder="Опишите задачу"></textarea>
+              </div>
+              <div class="field full row">
+                <button class="button primary" type="submit">Отправить</button>
+                <span id="form-note" class="muted"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container row" style="justify-content: space-between;">
+      <div>© <span id="year"></span> ARM Accounting</div>
+      <div class="row">
+        <a href="mailto:info@armaccounting.am">info@armaccounting.am</a>
+        <a href="https://wa.me/37400000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://t.me/armaccounting" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/workspace/arm-accounting-site/assets/js/main.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
